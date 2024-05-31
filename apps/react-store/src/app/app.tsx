@@ -1,14 +1,23 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
+import axios from 'axios';
 
 import NxWelcome from './nx-welcome';
+import Card from './components/Card';
+import UserForm from './components/UserForm';
 
-export function App() {
+// Componente principal
+const App = () => {
   return (
     <div>
-      <NxWelcome title="react-store" />
+        <main>
+            <Card body={"Hola Mundo"}></Card>
+            <br />
+            <br />
+            <UserForm></UserForm>
+        </main>
     </div>
   );
-}
+};
 
 export default App;
