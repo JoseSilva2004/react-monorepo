@@ -1,0 +1,25 @@
+// src/styles/navbar.scss
+.navbar {
+    background: linear-gradient(to right, #46f7fd, #26aae7);
+    height: 65px;
+    padding: 25px;
+    font-family: cursive;
+  
+    .navbar-brand {
+      color: #0c1c79 !important;
+      font-weight: bold;
+    }
+  
+    .nav-link {
+      color: #210c9b !important;
+      background-color: #57f8eb;
+      border-radius: 10px;
+      margin: 10px;
+      &:hover {
+        color: #fff !important;
+        background-color: #1445a0;
+        transition: 0.9s;
+      }
+    }
+}
+  

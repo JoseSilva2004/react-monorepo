@@ -1,21 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import axios from 'axios';
-
-import NxWelcome from './nx-welcome';
-import Card from './components/Card';
-import UserForm from './components/UserForm';
-
+import './app.module.scss';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 // Componente principal
 const App = () => {
   return (
     <div>
-        <main>
-            <Card body={"Hola Mundo"}></Card>
-            <br />
-            <br />
-            <UserForm></UserForm>
-        </main>
+      <Navbar />
+      <Footer />
     </div>
   );
 };
